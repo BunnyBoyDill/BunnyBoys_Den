@@ -315,7 +315,7 @@ main {
 .content-card {
     background: white;
     border: 3px solid var(--text-dark);
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 3rem;
     max-width: 700px;
     width: 100%;
