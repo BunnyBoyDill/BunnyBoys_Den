@@ -431,3 +431,41 @@ main {
     box-shadow: 0 4px 10px var(--shadow);
 }
 
+/* Fandoms Section */
+.fandoms-section {
+    min-height: 60vh;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fandoms-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    background: white;
+    border: 3px solid var(--text-dark);
+    border-radius: 15px;
+    box-shadow: 6px 6px 0 var(--accent-purple), 10px 10px 20px var(--shadow);
+}
+
+.fandom-item {
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.fandom-item:hover {
+    transform: scale(1.1);
+    color: var(--accent-pink);
+}
+
+.fandom-item span {
+    display: block;
+}
+
