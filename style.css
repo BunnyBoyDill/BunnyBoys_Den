@@ -451,21 +451,23 @@ main {
     box-shadow: 6px 6px 0 var(--accent-purple), 10px 10px 20px var(--shadow);
 }
 
-.fandom-item {
-    position: absolute;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1.2rem;
-    color: var(--text-dark);
-    padding: 0.5rem 1rem;
+.fandom-item img {
+    max-width: 150px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    display: block;
     transition: all 0.3s ease;
 }
 
-.fandom-item:hover {
-    transform: scale(1.1);
-    color: var(--accent-pink);
+.fandom-item:hover img {
+    transform: scale(1.15);
+    filter: brightness(1.1);
 }
 
 .fandom-item span {
     display: block;
 }
+
+
 
