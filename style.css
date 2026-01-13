@@ -311,7 +311,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    flex-wrap: wrap;
+    felx-wrap: wrap;
 }
 
 .content-card {
