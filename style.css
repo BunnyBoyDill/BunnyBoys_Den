@@ -543,6 +543,8 @@ main {
     .fandom-item:nth-child(6) { top: 45% !important; left: 55% !important; right: auto !important; }
     .fandom-item:nth-child(7) { top: 65% !important; left: 10% !important; right: auto !important; }
     .fandom-item:nth-child(8) { top: 65% !important; left: 55% !important; right: auto !important; }
+    .fandom-item:nth-child(9) { top: 85% !important; left: 10% !important; right: auto !important; }
+    .fandom-item:nth-child(10) { top: 85% !important; left: 55% !important; right: auto !important;}
 }
 
 @media (max-width: 480px) {
